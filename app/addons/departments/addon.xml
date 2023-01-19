@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>departments</id>
+    <version>1.0</version>
+    <priority>2100</priority>
+    <position>280</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:departments;</item>
+        <item>DROP TABLE IF EXISTS ?:department_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:department_links;</item>
+        <item>
+            CREATE TABLE `?:departments` (
+                `department_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `status` varchar(1) NOT NULL DEFAULT 'A',
+                `timestamp` int(11) unsigned NOT NULL DEFAULT 0,
+                `upd_timestamp` int(11) unsigned NOT NULL DEFAULT 0,
+                `director_id` int(11) unsigned NOT NULL DEFAULT 0,
+                PRIMARY KEY (`department_id`),
+                KEY `user_id` (`director_id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=58 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+        </item>
+        <item>
+            CREATE TABLE `?:department_descriptions` (
+                `department_id` int(11) unsigned NOT NULL DEFAULT 0,
+                `lang_code` char(2) NOT NULL DEFAULT '',
+                `department` varchar(255) NOT NULL DEFAULT '',
+                `description` text DEFAULT NULL,
+                PRIMARY KEY (`department_id`,`lang_code`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+        </item>
+        <item>
+            CREATE TABLE `?:department_links` (
+            `department_id` int(11) unsigned NOT NULL DEFAULT 0,
+            `user_id` int(11) unsigned NOT NULL DEFAULT 0,
+            PRIMARY KEY (`department_id`,`user_id`) USING BTREE,
+            KEY `user_id` (`user_id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+        </item>
+        <item type="file">database/demo_departments.sql</item>
+        <item type="file">database/demo_department_links.sql</item>
+        <item type="file" lang="en" table="department_descriptions">database/demo_department_descriptions_en.sql</item>
+        <item type="file" lang="ru" table="department_descriptions">database/demo_department_descriptions_ru.sql</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:departments;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:department_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:department_links;</item>
+    </queries>
+</addon>
