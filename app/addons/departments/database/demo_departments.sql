@@ -1,0 +1,14 @@
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (41,'A',1671735888,0,1);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (42,'A',1671735944,0,1);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (43,'D',1671736000,0,1);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (44,'D',1671736052,0,15);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (46,'A',1671736170,0,15);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (47,'D',1671736217,0,15);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (49,'H',1671736705,0,0);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (50,'H',1671736808,0,0);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (51,'A',1671736849,0,1);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (52,'H',1671736882,0,0);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (53,'A',1671736915,0,1);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (54,'D',1671736952,0,1);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES (56,'A',1671738080,0,15);
+REPLACE INTO ?:departments (department_id, status, timestamp, upd_timestamp, director_id) VALUES(57,'A',1671814199,0,15);
