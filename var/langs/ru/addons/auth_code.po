@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.15.2/addons/newsletters.po\n"
+"X-Crowdin-File-ID: 6898\n"
+"PO-Revision-Date: 2022-10-11 10:44\n"
+
+msgctxt "Addons::name::auth_code"
+msgid "Authentication code"
+msgstr "Код подтверждения"
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "Введите email"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Отправка сообщения на [email]..."
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Эта ссылка будет отображаться в реальной рассылке"
+
+msgctxt "Languages::auth_code"
+msgid "Authentication"
+msgstr "Верификация"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Отправлено"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "От кого"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Email отправителя"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Email для ответа"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Email подтверждения"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "Текст письма (HTML)"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Шаблонов нет"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Загрузить"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Отправить"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Отправить тестовое сообщение"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Сохранить и отправить"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Подтверждено"
+
+msgctxt "SettingsOptions::auth_code::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Расширенные настройки почтового сервера"
+
+msgctxt "SettingsOptions::auth_code::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Способ отправки почты"
+
+msgctxt "SettingsOptions::auth_code::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "Настройки SMTP-сервера"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP-сервер"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "Имя пользователя для SMTP-сервера"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "Пароль для SMTP-сервера"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_ecrypted_connection"
+msgid "Use Encrypted Connection"
+msgstr "Использовать шифрованное соединение"
+
+msgctxt "SettingsVariants::auth_code::mailer_smtp_ecrypted_connection::none"
+msgid "None"
+msgstr "не использовать"
+
+msgctxt "SettingsVariants::auth_code::mailer_smtp_ecrypted_connection::tls"
+msgid "TLS"
+msgstr "TLS"
+
+msgctxt "SettingsVariants::auth_code::mailer_smtp_ecrypted_connection::ssl"
+msgid "SSL"
+msgstr "SSL"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "Использовать SMTP-аутентификацию"
+
+msgctxt "SettingsVariants::auth_code::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "через SMTP-сервер"
+
+msgctxt "SettingsVariants::auth_code::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "с помощью PHP-функции mail"
+
+msgctxt "SettingsVariants::auth_code::mailer_send_method::default"
+msgid "use default settings"
+msgstr "использовать настройки по умолчанию"
+
+msgctxt "Languages::activation_key"
+msgid "Activation key"
+msgstr "Ключ активации"
+
+msgctxt "Languages::verification_code_sent"
+msgid "Verification code have been sent successfully."
+msgstr "Код верификации отправлен."
+
+msgctxt "Languages::verification_code_expired"
+msgid "Verification code expired, send new code."
+msgstr "Срок кода верификации вышел, отправьте новый код."
+
+msgctxt "Languages::wrong_verification_code"
+msgid "Wrong verification code."
+msgstr "Неправильный код верификации."
+
+msgctxt "Languages::verificate_email"
+msgid "Verificate email and password again."
+msgstr "Повторно введите почту и пароль."
+
+msgctxt "Languages::send_new_code"
+msgid "Send new code"
+msgstr "Отправить новый код"
