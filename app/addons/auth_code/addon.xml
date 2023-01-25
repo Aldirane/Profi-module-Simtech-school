@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>auth_code</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>80</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_advanced_mailing_server_options">
+                        <type>header</type>
+                        <handler/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_send_method">
+                        <type>selectbox</type>
+                        <default_value>default</default_value>
+                        <variants>
+                            <item id="smtp">
+                            </item>
+                            <item id="mail">
+                            </item>
+                            <item id="default">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="elm_smtp_server_settings">
+                        <type>header</type>
+                        <handler/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_smtp_host">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_smtp_username">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_smtp_password">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_smtp_ecrypted_connection">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                        <variants>
+                            <item id="none">
+                            </item>
+                            <item id="tls">
+                            </item>
+                            <item id="ssl">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="mailer_smtp_auth">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <email_templates>
+        <templates>
+    <item>
+      <code><![CDATA[verify_profile]]></code>
+      <area><![CDATA[A]]></area>
+      <status><![CDATA[A]]></status>
+      <subject/>
+      <default_subject><![CDATA[{{ company_name }}: {{__("verify_profile")}}]]></default_subject>
+      <template/>
+      <default_template><![CDATA[{{ snippet("header", {"title": __("verify_profile")} ) }}
+
+    {{ __("hello") }},
+    <br />
+    <br /> {{ __("text_user_verification", {"[user_login]": user_data.email, "[url]": url, "[url_text]": url|puny_decode}) }}
+
+{{ snippet("footer") }}]]></default_template>
+      <params_schema/>
+      <params/>
+      <addon/>
+      <name>
+        <ru><![CDATA[Требуется верификация профиля пользователя]]></ru>
+        <en><![CDATA[User profile requires verification]]></en>
+      </name>
+    </item>
+    </templates>
+    </email_templates>
+</addon>
