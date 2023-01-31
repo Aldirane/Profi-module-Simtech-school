@@ -1,0 +1,177 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::auth_code"
+msgid "Authentication code"
+msgstr "Authentication code"
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "E-mail cannot be empty"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Sending email to [email]..."
+
+msgctxt "Languages::authentication"
+msgid "authentication"
+msgstr "authentication"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Sent"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "From name"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "From email"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Reply to"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Confirmation email"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "No autoresponder"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Show at checkout"
+
+msgctxt "Languages::hide_on_checkout"
+msgid "Hide at checkout"
+msgstr "Hide at checkout"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Subject"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Random subjects (one per line)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML body"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "No template"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Load"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Send to"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Send to test email"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Save and send"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Mailing list"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Confirmed"
+
+msgctxt "SettingsSections::auth_code::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::auth_code::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Advanced mailing server options"
+
+msgctxt "SettingsOptions::auth_code::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Method of sending e-mails"
+
+msgctxt "SettingsOptions::auth_code::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "SMTP server settings"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP host"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTP username"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTP password"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_ecrypted_connection"
+msgid "Use Encrypted Connection"
+msgstr "Use Encrypted Connection"
+
+msgctxt "SettingsVariants::auth_code::mailer_smtp_ecrypted_connection::none"
+msgid "None"
+msgstr "None"
+
+msgctxt "SettingsVariants::auth_code::mailer_smtp_ecrypted_connection::tls"
+msgid "TLS"
+msgstr "TLS"
+
+msgctxt "SettingsVariants::auth_code::mailer_smtp_ecrypted_connection::ssl"
+msgid "SSL"
+msgstr "SSL"
+
+msgctxt "SettingsOptions::auth_code::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "Use SMTP authentication"
+
+msgctxt "SettingsVariants::auth_code::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "via SMTP server"
+
+msgctxt "SettingsVariants::auth_code::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "via php mail function"
+
+msgctxt "SettingsVariants::auth_code::mailer_send_method::default"
+msgid "use default settings"
+msgstr "use default settings"
+
+msgctxt "Languages::activation_key"
+msgid "Activation key"
+msgstr "Activation key"
+
+msgctxt "Languages::verification_code_sent"
+msgid "Verification code have been sent."
+msgstr "Verification code have been sent."
+
+msgctxt "Languages::verification_code_expired"
+msgid "Verification code expired, send new code."
+msgstr "Verification code expired, send new code."
+
+msgctxt "Languages::wrong_verification_code"
+msgid "Wrong verification code."
+msgstr "Wrong verification code."
+
+msgctxt "Languages::verificate_email"
+msgid "Verificate email and password again."
+msgstr "Verificate email and password again."
+
+msgctxt "Languages::send_new_code"
+msgid "Send new code"
+msgstr "Send new code"

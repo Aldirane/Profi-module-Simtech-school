@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::one_product"
+msgid "One product"
+msgstr "One product"
+
+msgctxt "Languages::products_already_bought"
+msgid "Products already bought"
+msgstr "Products already bought"
+
+msgctxt "Languages::products_already_bought_cart_cleared"
+msgid "Products already bought, cart cleared"
+msgstr "Products already bought, cart cleared"
+
+msgctxt "Languages::products_already_in_cart"
+msgid "Products already in cart"
+msgstr "Products already in cart"

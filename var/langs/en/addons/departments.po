@@ -1,0 +1,49 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::departments"
+msgid "Departments management"
+msgstr "Departments management"
+
+msgctxt "Languages::Departments.new_department"
+msgid "New department"
+msgstr "New department"
+
+msgctxt "Languages::departments.editing_department"
+msgid "Editing department"
+msgstr "Editing department"
+
+msgctxt "Languages::add_department"
+msgid "Add department"
+msgstr "Add department"
+
+msgctxt "Languages::department"
+msgid "Department"
+msgstr "Department"
+
+msgctxt "Languages::departments"
+msgid "Departments"
+msgstr "Departments"
+
+msgctxt "Languages::manage_departments"
+msgid "Manage departments"
+msgstr "Manage departments"
+
+msgctxt "Languages::n_departments"
+msgid "[n] department|[n] departments"
+msgstr "[n] department|[n] departments"
+
+msgctxt "Languages::director"
+msgid "director"
+msgstr "Director"
+
+msgctxt "Languages::chose_department_director"
+msgid "chose department director"
+msgstr "chose department director"
+
+msgctxt "Languages::add_members_from_users"
+msgid "add members from users"
+msgstr "add members from users"

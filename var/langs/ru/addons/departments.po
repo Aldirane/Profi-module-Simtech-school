@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.15.2/addons/departments.po\n"
+"X-Crowdin-File-ID: 6826\n"
+"PO-Revision-Date: 2022-10-11 10:44\n"
+
+msgctxt "Addons::name::departments"
+msgid "Departments management"
+msgstr "Отделы"
+
+msgctxt "Languages::departments.new_department"
+msgid "New department"
+msgstr "Новый отдел"
+
+msgctxt "Languages::departments.editing_department"
+msgid "Editing department"
+msgstr "Редактирование отдела"
+
+msgctxt "Languages::add_department"
+msgid "Add department"
+msgstr "Добавить отдел"
+
+msgctxt "Languages::department"
+msgid "department"
+msgstr "Отдел"
+
+msgctxt "Languages::departments"
+msgid "departments"
+msgstr "Отделы"
+
+msgctxt "Languages::manage_departments"
+msgid "Manage departments"
+msgstr "Отделы"
+
+msgctxt "Languages::n_departments"
+msgid "[n] department|[n] departments"
+msgstr "[n] отдел|[n] отдела|[n] отделов"
+
