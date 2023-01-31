@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>one_product</id>
+    <version>1.0</version>
+    <priority>110</priority>
+    <position>90</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:one_product;</item>
+        <item>
+            CREATE TABLE `?:one_product` (
+                `product_id` mediumint(8) NOT NULL,
+                `user_id` mediumint(8) NOT NULL,
+                PRIMARY KEY (`product_id`, `user_id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=58 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:one_product;</item>
+    </queries>
+</addon>
